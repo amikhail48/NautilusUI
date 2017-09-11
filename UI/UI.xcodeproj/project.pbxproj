@@ -14,6 +14,7 @@
 		4959B7ED1F0B5FE800AB9DA1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4959B7EB1F0B5FE800AB9DA1 /* LaunchScreen.storyboard */; };
 		4959B7F81F0B5FE800AB9DA1 /* UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4959B7F71F0B5FE800AB9DA1 /* UITests.swift */; };
 		49AD81CE1F13000000C12770 /* LightControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AD81CD1F13000000C12770 /* LightControl.swift */; };
+		49AD81D11F13442E00C12770 /* RecordControl2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49AD81D01F13442E00C12770 /* RecordControl2.swift */; };
 		49CE39641F0EEDC90023EF83 /* RecordControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49CE39631F0EEDC90023EF83 /* RecordControl.swift */; };
 /* End PBXBuildFile section */
 
@@ -39,6 +40,7 @@
 		4959B7F71F0B5FE800AB9DA1 /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
 		4959B7F91F0B5FE800AB9DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		49AD81CD1F13000000C12770 /* LightControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LightControl.swift; sourceTree = "<group>"; };
+		49AD81D01F13442E00C12770 /* RecordControl2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordControl2.swift; sourceTree = "<group>"; };
 		49CE39631F0EEDC90023EF83 /* RecordControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordControl.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -86,6 +88,7 @@
 				4959B7E61F0B5FE800AB9DA1 /* Main.storyboard */,
 				49AD81CD1F13000000C12770 /* LightControl.swift */,
 				49CE39631F0EEDC90023EF83 /* RecordControl.swift */,
+				49AD81D01F13442E00C12770 /* RecordControl2.swift */,
 				4959B7E91F0B5FE800AB9DA1 /* Assets.xcassets */,
 				4959B7EB1F0B5FE800AB9DA1 /* LaunchScreen.storyboard */,
 				4959B7EE1F0B5FE800AB9DA1 /* Info.plist */,
@@ -152,7 +155,6 @@
 				TargetAttributes = {
 					4959B7DE1F0B5FE800AB9DA1 = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = R7BH6R225P;
 						ProvisioningStyle = Automatic;
 					};
 					4959B7F21F0B5FE800AB9DA1 = {
@@ -207,6 +209,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				49CE39641F0EEDC90023EF83 /* RecordControl.swift in Sources */,
+				49AD81D11F13442E00C12770 /* RecordControl2.swift in Sources */,
 				4959B7E51F0B5FE800AB9DA1 /* ViewController.swift in Sources */,
 				49AD81CE1F13000000C12770 /* LightControl.swift in Sources */,
 				4959B7E31F0B5FE800AB9DA1 /* AppDelegate.swift in Sources */,
@@ -348,7 +351,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = R7BH6R225P;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = UI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Nautilus.UI;
@@ -361,7 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = R7BH6R225P;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = UI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = Nautilus.UI;
